@@ -1,6 +1,6 @@
 # Sudbury Tech Cafe
 
-! Come for the code.. stay for the commit confessions.
+#### Come for the code.. stay for the commit confessions.
 
 
 Sudbury Tech Cafe (STC) is a space for cross-disciplinary tech professionals where real exchange of ideas, tools, failures, and innovation can happen amongst peers who've already put in years.
