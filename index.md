@@ -8,10 +8,15 @@ author_profile: false
 #### Come for the code.. stay for the commit confessions.
 
 Sudbury Tech Cafe (STC) is a space for cross-disciplinary tech professionals where real exchange of ideas, tools, failures, and innovation can happen amongst peers who've already put in years.
+
 Gathering local tech professionals who've outgrown beginner talks and want more than lectures for students. We co-lead sessions, share real-world technical stories, and push each other forward. Think of it as a hacker community (in the MIT sense) for the technically curious, professionally seasoned, and community-minded.
 
 ## Members:
 Constant Mori, Amir Zolf
+
+## Links:
+
+[posts](https://sudbury-tech-cafe.github.io/_posts/2025-05-31-welcome.md), [events](https://sudbury-tech-cafe.github.io/_pages/events.md), [about](https://sudbury-tech-cafe.github.io/_pages/about.md)
 
 ## Format:
 
