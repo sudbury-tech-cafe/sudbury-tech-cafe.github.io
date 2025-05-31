@@ -1,15 +1,10 @@
 # Sudbury Tech Cafe
 
-#### Come for the code.. stay for the commit confessions.
+Last Thursday, every month 
 
-Last Thursday, every month at 6/6:30pm in Sudbury
-Locations: TBA
-⸻
-### 🧠  Who It’s For
-	•	Mid–senior devs
-	•	Engineers, SREs, DevOps, data folks
-	•	Product/design folks who think like devs
-	•	People tired of surface-level meetups
+Time: TBA @ ~6/6:30pm
+
+Locations: TBA in Sudbury
 
 ---
 
