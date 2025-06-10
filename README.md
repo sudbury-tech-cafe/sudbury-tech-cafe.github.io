@@ -5,7 +5,7 @@
 
 Sudbury Tech Cafe (STC) is a space for cross-disciplinary tech professionals where real exchange of ideas, tools, failures, and innovation can happen amongst peers who've already put in years.
 
-Gathering local tech professionals who've outgrown beginner talks and want more than lectures for students. We co-lead sessions, share real-world technical stories, and push each other forward. Think of it as a hacker community (in the MIT sense) for the technically curious, professionally seasoned, and community-minded.
+Gathering local tech professionals who've outgrown beginner talks and want more than lectures for students. We co-lead sessions, share real-world technical stories, and push each other forward. Think of it as a community for the technically curious, professionally seasoned, and community-minded.
 
 
 ## Format:
