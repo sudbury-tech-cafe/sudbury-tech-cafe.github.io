@@ -17,9 +17,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navContent">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#intro">Introduction</a></li>
+          <li class="nav-item"><a class="nav-link" href="#intro">Sudbury Tech Cafe</a></li>
           <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#format">Format</a></li>
           <li class="nav-item"><a class="nav-link" href="#signup">Sign Up</a></li>
         </ul>
       </div>
@@ -29,49 +29,56 @@
   <!-- Sections -->
   <section id="intro" class="py-5 bg-light">
     <div class="container">
-      <h2>Sudbury Tech Cafe</h2>
-      <p>Come for the code.. stay for the commit confessions.
-        
-        Sudbury Tech Cafe (STC) is a space for cross-disciplinary tech professionals where real exchange of ideas, tools, failures, and innovation can happen amongst peers who've already put in years.
-        
-        Gathering local tech professionals who've outgrown beginner talks and want more than lectures for students. 
-        
-        We co-lead sessions, share real-world technical stories, and push each other forward. Think of it as a hacker community (in the MIT sense) for the technically curious, professionally seasoned, and community-minded.
-        
-        </p>
+      <h2><a href="https://github.com/sudbury-tech-cafe">STC - Sudbury Tech Cafe</a></h2>
+      <p style="font-weight: bold;">Come for the code.. stay for the commit confessions.</p>
+      <p>Sudbury Tech Cafe (STC) is a space for cross-disciplinary tech professionals where real exchange of ideas, tools, failures, and innovation can happen amongst peers who've already put in years.</p>
+      <p>Gathering local tech professionals who've outgrown beginner talks and want more than lectures for students.</p>
+      <p>We co-lead sessions, share real-world technical stories, and push each other forward. Think of it as a hacker community (in the MIT sense) for the technically curious, professionally seasoned, and community-minded.</p>
+        We co-lead sessions, share real-world technical stories, and push each other forward. Think of it as a hacker community (in the MIT sense) for the technically curious, professionally seasoned, and community-minded.</p>
     </div>
   </section>
 
   <section id="events" class="py-5">
     <div class="container">
-      <h2>Events</h2>
-      <h4>Last Thursday, every month</h4>
-      <h4>Time: TBA @ ~6/6:30pm</h4>
-      <h4>Locations: TBA in Sudbury</h4>    
+      <h2> 🗓️ Events</h2>
+
       <p>Upcoming events will be listed here.</p>
-      <ul> 2025
+      <ul>
+        <li>Last Thursday, every month</li>
+        <li>Time: TBA @ ~6/6:30pm</li>
+        <li>Locations: TBA in Sudbury</li> 
+      </ul>   
+      
+      <h6>2025</h6>
+      <ul>
         <li>Thu June 26 @ 6:30pm - Azure AI Agents @ Greater Sudbury Public Library - South End</li>
-        <li>NEXT EVENT: Date @ 6pm, Topic and Location TBD - AI Research Paper Breakdown (Possibly Antropic)</li> 
+        <li>NEXT EVENT: Date @ 6pm, Topic and Location TBD - AI Research Paper Breakdown (Possibly Anthropic)</li> 
       </ul>
+      <h6>Past Events</h6>
+
     </div>
   </section>
 
-  <section id="about" class="py-5 bg-light">
+  <section id="format" class="py-5 bg-light">
     <div class="container">
-      <h2>🔧  Core Format Options</h2>
-        <ul> Lightning Talks (20–30 min total)
+      <h2>📊 Format Options</h2>
+        <h6>Lightning Talks (20–30 min total)</h6>
+        <ul>
             <li>3 speakers × 5–7 minutes</li>
             <li>Topics can be experimental tools, lessons learned, recent builds, or tech rants.</li>
         </ul>
-        <ul> Deep Dive Night (60–90 min)
+        <h6>Deep Dive Night (60–90 min)</h6>
+        <ul>
             <li>1 speaker goes in-depth on something niche (DevOps pipelines, GraphQL caching, CICD horror stories, AI prompt engineering, etc.)
             <li>Open Q&A + banter/networking.</li>
         </ul>
-        <ul> “What Broke?” Post-Mortem Night
+        <h6>“What Broke?” Post-Mortem Night</h6>
+        <ul>
             <li>2–3 people share tech failures, bugs, or scaling issues.</li>
             <li>Bonus: What they’d do differently now.</li>
         </ul>
-        <ul> Tool Swap & Demos
+        <h6>Tool Swap & Demos</h6>
+        <ul>
             <li>Quick demos of tools everyone’s using—like personal IDE setups, debugging tricks, bash aliases, browser extensions, etc.</li>
         </ul>
     </div>
@@ -79,18 +86,25 @@
 
   <section id="signup" class="py-5">
     <div class="container">
-      <h2>Sign Up to be a Speaker</h2>
+      <h2>📋 Sign Up to be a Speaker</h2>
       <ul> 
-        <li>“You talk, I talk” — shared effort</li>
+        <li>Shared a technical effort you've done, something you've learned, or something you've built.</li>
         <li>Casual callout: “Who wants to rant for 7 minutes next time?”</li>
-        <li>Speaker sheet form with 3 prompt options offered:
+        <li>3 topic prompt options offered to help you decide what to talk about:
         <ul>
             <li>1.	Something you love</li>
             <li>2.	Something you hate</li>
             <li>3.	Something that broke</li>
         </ul>
      </ul>
-      <form>
+     <form action="https://formsubmit.co/byoticscom@gmail.com" method="POST">
+        <input type="text" name="name" required>
+        <input type="email" name="email" required>
+        <input type="hidden" name="_subject" value="Speaker Inquiry">
+        <input type="text" name="topic" required>
+        <button type="submit">Submit</button>
+      </form>
+      <!--form>
         <div class="mb-3">
           <label class="form-label">Name</label>
           <input type="text" class="form-control" required>
