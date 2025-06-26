@@ -17,7 +17,7 @@ A local community where tech professionals who've outgrown beginner talks and wa
  
 	2.	Deep Dive Night (60–90 min)
 	•	1 speaker goes in-depth on something niche (DevOps pipelines, GraphQL caching, CICD horror stories, AI prompt engineering, etc.)
-	•	Open Q&A + beer/pizza.
+	•	Open Q&A + social
  
 	3.	“What Broke?” Post-Mortem Night
 	•	2–3 people share tech failures, bugs, or scaling issues.
