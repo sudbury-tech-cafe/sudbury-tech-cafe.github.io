@@ -27,7 +27,7 @@
   </nav>
 
   <!-- Sections -->
-  <section id="intro" class="py-5 bg-light">
+  <section id="intro" class="py-5 bg-light" style="margin-top: 10%;">
     <div class="container">
       <h2><a href="https://github.com/sudbury-tech-cafe">STC - Sudbury Tech Cafe</a></h2>
       <p style="font-weight: bold;">Come for the code.. stay for the commit confessions.</p>
@@ -35,33 +35,36 @@
       <p>Gathering local tech professionals who've outgrown beginner talks and want more than lectures for students.</p>
       <p>We co-lead sessions, share real-world technical stories, and push each other forward. Think of it as a hacker community (in the MIT sense) for the technically curious, professionally seasoned, and community-minded.</p>
         We co-lead sessions, share real-world technical stories, and push each other forward. Think of it as a hacker community (in the MIT sense) for the technically curious, professionally seasoned, and community-minded.</p>
+    <br>
+    <p>Future updates, discussions, presentations and repos can be found at <a href="https://github.com/sudbury-tech-cafe">https://github.com/sudbury-tech-cafe</a></p>
     </div>
   </section>
 
   <section id="events" class="py-5">
     <div class="container">
       <h2> 🗓️ Events</h2>
-
+      <br>
       <p>Upcoming events will be listed here.</p>
       <ul>
         <li>Last Thursday, every month</li>
         <li>Time: TBA @ ~6/6:30pm</li>
         <li>Locations: TBA in Sudbury</li> 
       </ul>   
-      
+      <br>
       <h6>2025</h6>
       <ul>
         <li>Thu June 26 @ 6:30pm - Azure AI Agents @ Greater Sudbury Public Library - South End</li>
         <li>NEXT EVENT: Date @ 6pm, Topic and Location TBD - AI Research Paper Breakdown (Possibly Anthropic)</li> 
       </ul>
       <h6>Past Events</h6>
-
+      <p>-</p>
     </div>
   </section>
 
   <section id="format" class="py-5 bg-light">
     <div class="container">
       <h2>📊 Format Options</h2>
+      <br>
         <h6>Lightning Talks (20–30 min total)</h6>
         <ul>
             <li>3 speakers × 5–7 minutes</li>
@@ -87,6 +90,8 @@
   <section id="signup" class="py-5">
     <div class="container">
       <h2>📋 Sign Up to be a Speaker</h2>
+      <br>
+      <h6>Choose one of the following options to talk about:</h6>
       <ul> 
         <li>Shared a technical effort you've done, something you've learned, or something you've built.</li>
         <li>Casual callout: “Who wants to rant for 7 minutes next time?”</li>
@@ -97,13 +102,25 @@
             <li>3.	Something that broke</li>
         </ul>
      </ul>
-     <form action="https://formsubmit.co/byoticscom@gmail.com" method="POST">
-        <input type="text" name="name" required>
-        <input type="email" name="email" required>
-        <input type="hidden" name="_subject" value="Speaker Inquiry">
-        <input type="text" name="topic" required>
-        <button type="submit">Submit</button>
-      </form>
+      <div>
+        <!-- h1 style="text-align: center;margin: 35px 0 20px 0 !important;">Speaker Form</h1 -->
+        <form target="_blank" action="https://formsubmit.co/byoticscom@gmail.com" method="POST">
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col">
+                <input type="text" name="name" class="form-control" placeholder="Name" required>
+              </div>
+              <div class="col">
+                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-lg btn-dark btn-block">Submit</button>
+        </form>
+      </div>
       <!--form>
         <div class="mb-3">
           <label class="form-label">Name</label>
