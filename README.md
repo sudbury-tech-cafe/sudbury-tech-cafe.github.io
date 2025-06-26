@@ -1,4 +1,4 @@
-# A - Sudbury Tech Cafe
+# Sudbury Tech Cafe
 
 #### Come for the code.. stay for the commit confessions.
 
